@@ -1,0 +1,19 @@
+*{
+    margin:0;
+    color:white;
+    font-family: Arial;
+}
+body{
+    background-color: #101152;
+}
+.navdiv{
+    
+    display:flex;
+}
+.logo{
+    margin-right: 20px;
+}
+h1{
+    text-align: center;
+    margin-top: 25px;
+}
