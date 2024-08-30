@@ -73,3 +73,7 @@ with Session(engine) as session:
     test_user = User(name="Joe", email="gibrish@gmail.com",password_hash="shdgh", courses=[Courses(name="python", age_group="teen", subject = Subject(name="cs")), Courses(name="html",  age_group="teen", subject = Subject(name="cs"))])
     session.add(test_user)
     session.commit()
+
+
+    # 
+    # 
